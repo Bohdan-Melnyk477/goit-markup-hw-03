@@ -39,6 +39,14 @@ body {
 }
 /* ===================header=================== */
 
+.header-styles {
+  border-bottom: 1px solid #e7e9fc;
+  display: flex;
+}
+.page-nav {
+  display: flex;
+  align-items: center;
+}
 .logo-name {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -47,6 +55,7 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
+  margin-right: 76px;
 }
 .page-logo {
   font-family: "Raleway", sans-serif;
@@ -64,6 +73,7 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  display: flex;
 }
 .info-list {
   font-style: normal;
