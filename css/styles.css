@@ -37,6 +37,19 @@ body {
   color: #434455;
   background-color: #ffffff;
 }
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
 /* ===================header=================== */
 
 .header-styles {
@@ -56,6 +69,8 @@ body {
   text-transform: uppercase;
   color: #4d5ae5;
   margin-right: 76px;
+  display: inline-block;
+  margin-bottom: 16px;
 }
 .page-logo {
   font-family: "Raleway", sans-serif;
@@ -212,6 +227,7 @@ body {
 /* footer */
 .name-footer {
   background-color: #2e2f42;
+  padding: 100px 0 100px;
 }
 .page-footer {
   font-family: "Roboto", sans-serif;
@@ -229,4 +245,6 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #f4f4fd;
+  display: inline-block;
+  margin-bottom: 16px;
 }
