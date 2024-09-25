@@ -70,7 +70,8 @@ body {
   text-transform: uppercase;
   color: #4d5ae5;
   margin-right: 76px;
-  display: inline-block;
+  padding: 24px 0 24px;
+  display: block;
   margin-bottom: 16px;
 }
 .page-logo {
@@ -241,6 +242,9 @@ body {
   padding: 100px 0 100px;
   display: inline-block;
 }
+.footer-style {
+  padding: 24px 0 24px;
+}
 .page-footer {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
@@ -257,6 +261,5 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #f4f4fd;
-  display: inline-block;
   margin-bottom: 16px;
 }
