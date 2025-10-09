@@ -108,10 +108,14 @@ img {
   letter-spacing: 0.02em;
   color: #2e2f42;
   padding: 24px 0;
+}
+.nav-menu {
   display: flex;
   gap: 40px;
 }
-
+.nav-text {
+  padding: 24px 0;
+}
 .contacts-list {
   display: flex;
   gap: 40px;
