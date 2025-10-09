@@ -77,8 +77,15 @@ img {
 }
 .header-container {
   display: flex;
+  align-items: center;
+}
+.nav-header {
+  display: flex;
+  align-items: center;
 }
 .nav-list {
+}
+.nav-list-items {
   display: flex;
   gap: 40px;
 }
