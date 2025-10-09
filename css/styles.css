@@ -39,7 +39,6 @@ img {
 }
 .visually-hidden {
   margin: -1px;
-
   white-space: nowrap;
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
@@ -165,9 +164,18 @@ img {
 }
 /* Our Benefits */
 
+.benefits {
+  padding: 120px 0;
+}
 .benefits-list {
+  display: flex;
+  gap: 24px;
+}
+.benefits-name {
+  margin-bottom: 8px;
 }
 .benefits-item {
+  width: calc((100% - 72px) / 4);
 }
 .benefits-title {
   font-weight: 500;
