@@ -252,6 +252,7 @@ img {
   color: #2e2f42;
   text-align: center;
   text-transform: capitalize;
+  margin-bottom: 72px;
 }
 .portfolio-list {
   display: flex;
@@ -261,6 +262,7 @@ img {
 }
 .portfolio-item {
   background: #fff;
+  width: calc((100% - 48px) / 3);
 }
 .portfolio-image {
 }
@@ -272,7 +274,6 @@ img {
   color: #2e2f42;
   text-align: center;
   text-transform: capitalize;
-  margin-bottom: 72px;
 }
 .portfolio-text {
   font-size: 16px;
@@ -280,7 +281,12 @@ img {
   letter-spacing: 0.02em;
   color: #434455;
 }
-
+.portfolio-content {
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
+  margin-bottom: 8px;
+}
 /* Footer */
 
 .footer {
