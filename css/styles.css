@@ -75,23 +75,7 @@ img {
 .header {
   border-bottom: 1px solid #e7e9fc;
 }
-.header-container {
-  display: flex;
-  align-items: center;
-}
-.nav-header {
-  display: flex;
-  align-items: center;
-}
-.nav-list {
-}
-.nav-list-items {
-  display: flex;
-  gap: 40px;
-}
-.link-list {
-  padding: 24px 0;
-}
+
 .logo-name {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -108,7 +92,17 @@ img {
 }
 .contacts-item {
 }
-
+.nav-header {
+  display: flex;
+  gap: 40px;
+}
+.nav-list-items {
+  display: flex;
+  gap: 40px;
+}
+.link-list {
+  padding: 24px 0 24px;
+}
 .active {
   font-weight: 500;
   line-height: 1.5;
@@ -170,10 +164,6 @@ img {
 }
 /* Our Benefits */
 
-.benefits-list {
-  display: flex;
-  gap: 24px;
-}
 .benefits {
   padding: 120px 0;
 }
