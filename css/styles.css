@@ -187,7 +187,7 @@ img {
   letter-spacing: 0.02em;
   color: #434455;
 }
-benefits-list {
+.benefits-list {
   display: flex;
   gap: 24px;
 }
