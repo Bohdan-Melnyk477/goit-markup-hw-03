@@ -39,15 +39,19 @@ img {
 }
 
 .visually-hidden {
-  margin: -1px;
-
+  position: absolute;
   white-space: nowrap;
-  clip-path: inset(100%);
-  clip: rect(0 0 0 0);
+  width: 1px;
+  height: 1px;
   overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
 }
 .section {
-  padding: 120px 0;
+  /* padding: 120px 0; */
 }
 .section-title {
   font-size: 36px;
@@ -134,7 +138,7 @@ img {
 }
 /* Hero section */
 .hero-section {
-  padding: 188px 0;
+  /* padding: 188px 0; */
 }
 .hero-container {
   width: 1440px;
