@@ -4,10 +4,23 @@ body {
   color: #434455;
   background-color: #ffffff;
 }
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
 ul,
 ol {
   list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
+
 a {
   color: currentColor;
   text-decoration: none;
@@ -19,6 +32,10 @@ button {
 }
 address {
   font-style: normal;
+}
+
+img {
+  display: block;
 }
 
 .visually-hidden {
@@ -33,7 +50,9 @@ address {
   clip-path: inset(50%);
   overflow: hidden;
 }
-
+.section {
+  padding: 120px 0;
+}
 .section-title {
   font-size: 36px;
   line-height: 1.11;
@@ -41,19 +60,29 @@ address {
   text-align: center;
   color: #2e2f42;
 }
-.hero {
-  background: #2e2f42;
-}
 .accent {
   color: #4d5ae5;
+}
+.container {
+  width: 1158px;
+  margin: 0 auto;
+  padding: 0 15px;
 }
 
 /* header */
 
 .header {
+  padding: 24px 0;
+}
+.header-container {
+  display: flex;
 }
 .header-nav {
+  display: flex;
+  gap: 40px;
+  margin-right: 332px;
 }
+
 .logo-name {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -61,6 +90,7 @@ address {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  margin-right: auto;
 }
 .studio {
   color: #2e2f42;
@@ -77,6 +107,8 @@ address {
   color: #2e2f42;
 }
 .contacts-list {
+  display: flex;
+  gap: 40px;
 }
 .contacts-list-item {
   font-weight: 400;
@@ -99,6 +131,11 @@ address {
 }
 /* Hero section */
 .hero-section {
+}
+.hero-container {
+  width: 1440px;
+  margin: auto;
+  padding: 188px 472px 292px;
   background: #2e2f42;
 }
 .hero {
@@ -107,6 +144,7 @@ address {
   letter-spacing: 0.02em;
   text-align: center;
   color: #fff;
+  background: #2e2f42;
 }
 .btn {
   font-weight: 500;
@@ -121,7 +159,8 @@ address {
   background-color: #404bbf;
 }
 /* Our Benefits */
-
+.benefits {
+}
 .benefits-list {
 }
 .benefits-item {
