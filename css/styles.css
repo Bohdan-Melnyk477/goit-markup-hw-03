@@ -139,6 +139,7 @@ img {
 }
 /* Hero section */
 .hero-section {
+  padding: 188px 0;
 }
 .hero-container {
   width: 1440px;
@@ -147,12 +148,14 @@ img {
   background: #2e2f42;
 }
 .hero {
+  max-width: 496px;
   font-size: 56px;
   line-height: 1.07;
   letter-spacing: 0.02em;
   text-align: center;
   color: #fff;
   background: #2e2f42;
+  margin-bottom: 48px;
 }
 .btn {
   font-weight: 500;
@@ -161,6 +164,13 @@ img {
   color: #fff;
   background-color: #4d5ae5;
   font-size: 16px;
+  display: block;
+  min-width: 169px;
+  height: 56px;
+  border: none;
+  border-radius: 4px;
+}
+.btn-hero {
 }
 .btn:hover,
 .btn:focus {
