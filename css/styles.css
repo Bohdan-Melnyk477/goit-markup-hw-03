@@ -51,7 +51,9 @@ img {
   overflow: hidden;
 }
 .section {
+  padding: 120px 0;
 }
+
 .section-title {
   font-size: 36px;
   line-height: 1.11;
@@ -65,7 +67,7 @@ img {
 .container {
   width: 1158px;
   margin: 0 auto;
-  /* padding: 0 15px 0 15px; */
+  padding: 0 15px 0 15px;
 }
 
 /* header */
